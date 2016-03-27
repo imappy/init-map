@@ -114,7 +114,7 @@
             font-size: 5vh;
         }
         
-        i a {
+        body > header > p > i > a {
                 text-decoration: underline;
         }
 
