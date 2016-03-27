@@ -1871,15 +1871,9 @@ function createCanvas() {
     document.getElementById('map-container').innerHTML = externalCanvas;
 }
 
-function replaceButtons() {
-	var sInner = '<a data-js-follow-button="" class="tx-button flat-button blue" target="_top" href="https://www.tumblr.com/register/follow/init-map"> Follow <span class="mobile-hidden"> init-map </span></a>';
-	$(".buttons-container")[0].text(sInner);
-}
-
 $(window).load(function(){
 	$(function() {
         	createCanvas();
-        	replaceButtons();
         	
 		panZoomInstance = svgPanZoom('#initium-map', {
 		  zoomEnabled: true,
