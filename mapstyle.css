@@ -118,7 +118,9 @@
                 text-decoration: underline !important;
         }
 
-
+        p {
+                font-size: 2vh !important;
+        }
 
 
 #map-container, #initium-map {width:100vw; height:90vh;}
