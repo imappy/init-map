@@ -1877,6 +1877,6 @@ $(window).load(function(){
 		});
 		
 		// zoom out
-		panZoomInstance.zoom(1)
+		//panZoomInstance.zoom(1)
 	});
 });
