@@ -1866,8 +1866,15 @@ function requestTimeout(timeout) {
 
 },{}]},{},[1]);
 
+
+function createCanvas() {
+    document.getElementById('map-container').innerHTML = externalCanvas;
+}
+
+
 $(window).load(function(){
 	$(function() {
+        createCanvas();
 		panZoomInstance = svgPanZoom('#initium-map', {
 		  zoomEnabled: true,
 		  controlIconsEnabled: true,
